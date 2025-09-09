@@ -6,7 +6,7 @@ import pickle
 
 
 def generateAI():
-    data=pd.read_csv('data (1).csv')
+    data=pd.read_csv('data.csv')
 
     X=data.iloc[:,:-1].values
     y=data.iloc[:,-1].values
